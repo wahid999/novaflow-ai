@@ -46,7 +46,31 @@ export default function Home() {
           ))}
         </div>
       </section>
+<section className="py-20 text-center">
+  <h2 className="text-5xl font-bold mb-12">Why Choose NovaFlow AI?</h2>
 
+  <div className="grid md:grid-cols-4 gap-6 max-w-6xl mx-auto px-6">
+    <div className="bg-slate-900 p-6 rounded-xl">
+      <h3 className="text-xl font-bold mb-3">⚡ Fast Delivery</h3>
+      <p>Professional websites delivered quickly.</p>
+    </div>
+
+    <div className="bg-slate-900 p-6 rounded-xl">
+      <h3 className="text-xl font-bold mb-3">🤖 AI Chatbots</h3>
+      <p>24/7 automated customer support.</p>
+    </div>
+
+    <div className="bg-slate-900 p-6 rounded-xl">
+      <h3 className="text-xl font-bold mb-3">📱 Mobile Friendly</h3>
+      <p>Perfect on phones, tablets and desktops.</p>
+    </div>
+
+    <div className="bg-slate-900 p-6 rounded-xl">
+      <h3 className="text-xl font-bold mb-3">💬 WhatsApp Integration</h3>
+      <p>Generate leads directly to WhatsApp.</p>
+    </div>
+  </div>
+</section>
       <section id="pricing" className="px-8 py-20 bg-gray-950">
         <h2 className="text-4xl font-bold text-center mb-12">Simple Pricing</h2>
         <div className="grid md:grid-cols-3 gap-8">
@@ -93,6 +117,16 @@ export default function Home() {
           Contact on WhatsApp
         </a>
       </section>
+      <footer
+  id="contact"
+  className="border-t border-gray-800 mt-20 py-12 text-center"
+>
+  <h2 className="text-3xl font-bold mb-4">Contact NovaFlow AI</h2>
+
+  <p>Email: wahidhussainturi@gmail.com</p>
+  <p>WhatsApp: +44 7534 993475</p>
+  <p>Location: London, United Kingdom</p>
+</footer>
         <WhatsAppButton />
       <ChatWidget />
     </main>
