@@ -93,30 +93,62 @@ export default function Home() {
       </section>
 
       <section id="portfolio" className="px-8 py-20">
-        <h2 className="text-4xl font-bold text-center mb-12">Demo Projects</h2>
-        <div className="grid md:grid-cols-4 gap-6">
-          {["Barber Shop AI", "Restaurant AI", "Estate Agent AI", "Cleaning Company AI"].map((item) => (
-            <div key={item} className="bg-gray-900 p-6 rounded-xl border border-gray-800">
-              <h3 className="text-xl font-bold mb-3">{item}</h3>
-              <p className="text-gray-300">Demo chatbot project for local business customer support.</p>
-            </div>
-          ))}
-        </div>
-      </section>
+  <h2 className="text-4xl font-bold text-center mb-12">Demo Projects</h2>
+
+  <div className="grid md:grid-cols-4 gap-6">
+    <div className="bg-gray-900 p-6 rounded-xl border border-gray-800">
+      <h3 className="text-xl font-bold mb-3">Barber Shop AI Demo</h3>
+      <p className="text-gray-300 mb-4">
+        Complete barber website with AI chatbot and booking system.
+      </p>
+
+      <a
+        href="/barber"
+        className="bg-blue-600 px-4 py-2 rounded-lg inline-block"
+      >
+        View Demo
+      </a>
+    </div>
+
+    <div className="bg-gray-900 p-6 rounded-xl border border-gray-800">
+      <h3 className="text-xl font-bold mb-3">Restaurant AI</h3>
+      <p className="text-gray-300">
+        Restaurant website and ordering assistant.
+      </p>
+    </div>
+
+    <div className="bg-gray-900 p-6 rounded-xl border border-gray-800">
+      <h3 className="text-xl font-bold mb-3">Estate Agent AI</h3>
+      <p className="text-gray-300">
+        Property listing and lead generation system.
+      </p>
+    </div>
+
+    <div className="bg-gray-900 p-6 rounded-xl border border-gray-800">
+      <h3 className="text-xl font-bold mb-3">Cleaning Company AI</h3>
+      <p className="text-gray-300">
+        Quote requests and booking automation.
+      </p>
+    </div>
+  </div>
+</section>
 
       <section id="contact" className="px-8 py-20 bg-gray-950 text-center">
-        <h2 className="text-4xl font-bold mb-6">Book a Free Demo</h2>
-        <p className="text-gray-300 mb-8">
-          Want a chatbot or website for your business? Contact me today.
-        </p>
-        <a
-          href="https://wa.me/4475349931475"
-          target="_blank"
-          className="bg-green-600 px-8 py-4 rounded-lg font-bold inline-block"
-        >
-          Contact on WhatsApp
-        </a>
-      </section>
+  <h2 className="text-4xl font-bold mb-6">Book a Free Demo</h2>
+
+  <p className="text-gray-300 mb-8">
+    Want a chatbot or website for your business?
+    Contact NovaFlow AI today.
+  </p>
+
+  <a
+    href="https://wa.me/+447534991475"
+    target="_blank"
+    className="bg-green-600 px-8 py-4 rounded-lg font-bold inline-block"
+  >
+    Contact on WhatsApp
+  </a>
+</section>
       <footer
   id="contact"
   className="border-t border-gray-800 mt-20 py-12 text-center"
