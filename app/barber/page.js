@@ -16,7 +16,7 @@ export default function BarberDemo() {
 
       <section className="pt-40 pb-28 px-6 text-center bg-gradient-to-b from-black via-gray-950 to-black">
         <p className="text-yellow-500 font-semibold mb-4">
-          Modern Barber Shop in London
+          Demo Website Built by NovaFlow AI
         </p>
 
         <h1 className="text-5xl md:text-7xl font-bold mb-6">
@@ -128,6 +128,23 @@ export default function BarberDemo() {
         <h2 className="text-4xl font-bold mb-6">
           Book Your Appointment
         </h2>
+        <div className="mt-10 flex flex-wrap justify-center gap-4 text-sm text-gray-300">
+  <span className="bg-slate-900 px-4 py-2 rounded-full">
+    ✅ Online Booking
+  </span>
+
+  <span className="bg-slate-900 px-4 py-2 rounded-full">
+    ✅ AI Chatbot
+  </span>
+
+  <span className="bg-slate-900 px-4 py-2 rounded-full">
+    ✅ WhatsApp Leads
+  </span>
+</div>
+
+<div className="mt-8 text-yellow-400 text-lg font-semibold">
+  ⭐⭐⭐⭐⭐ 4.9/5 Rating | 500+ Happy Customers
+</div>
 
         <p className="text-gray-300 mb-8">
           Message us on WhatsApp with your name, service and preferred time.
