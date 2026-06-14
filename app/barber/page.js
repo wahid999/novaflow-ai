@@ -1,3 +1,4 @@
+import BarberBookingForm from "../../components/BarberBookingForm.js";
 import WhatsAppButton from "../../components/WhatsAppButton.js";
 import BarberChatWidget from "../../components/BarberChatWidget.js";
 
@@ -193,6 +194,7 @@ export default function BarberDemo() {
           Book on WhatsApp
         </a>
       </section>
+      <BarberBookingForm />
 
       <footer className="border-t border-gray-800 py-10 text-center text-gray-400">
         <p>Premium Barber Shop Demo by NovaFlow AI</p>
