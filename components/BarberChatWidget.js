@@ -89,7 +89,7 @@ Phone: ${finalBooking.phone}`;
         whatsappMessage
       )}`;
 
-      return `Thank you ${finalBooking.name} ✅\n\nYour booking request is ready:\n\nService: ${finalBooking.service}\nDate: ${finalBooking.date}\nTime: ${finalBooking.time}\nPhone: ${finalBooking.phone}\n\nPlease confirm your booking on WhatsApp:\n${whatsappUrl}`;
+      return `Thank you ${finalBooking.name} ✅\n\nYour booking request is ready:\n\nService: ${finalBooking.service}\nDate: ${finalBooking.date}\nTime: ${finalBooking.time}\nPhone: ${finalBooking.phone}\n\nPlease click the green WhatsApp button on the left side to confirm your booking.`;
     }
 
     return "Your booking request is already prepared. Please confirm it on WhatsApp.";
