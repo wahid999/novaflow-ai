@@ -87,6 +87,41 @@ export default function BarberDemo() {
           ))}
         </div>
       </section>
+      <section className="py-20 bg-slate-950 text-center">
+  <h2 className="text-5xl font-bold mb-12">
+    Opening Hours
+  </h2>
+
+  <div className="max-w-md mx-auto bg-slate-900 p-8 rounded-2xl">
+    <p>Monday - Friday: 9:00 AM - 7:00 PM</p>
+    <p>Saturday: 9:00 AM - 6:00 PM</p>
+    <p>Sunday: Closed</p>
+  </div>
+
+  <h2 className="text-5xl font-bold mt-20 mb-12">
+    Customer Reviews
+  </h2>
+
+  <div className="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto px-6">
+    <div className="bg-slate-900 p-6 rounded-xl">
+      <p className="text-yellow-400 mb-3">⭐⭐⭐⭐⭐</p>
+      <p>"Best fade in town. Highly recommended."</p>
+      <p className="mt-4 text-gray-400">— John Smith</p>
+    </div>
+
+    <div className="bg-slate-900 p-6 rounded-xl">
+      <p className="text-yellow-400 mb-3">⭐⭐⭐⭐⭐</p>
+      <p>"Friendly staff and excellent service."</p>
+      <p className="mt-4 text-gray-400">— Ahmed Khan</p>
+    </div>
+
+    <div className="bg-slate-900 p-6 rounded-xl">
+      <p className="text-yellow-400 mb-3">⭐⭐⭐⭐⭐</p>
+      <p>"Professional haircut and beard trim."</p>
+      <p className="mt-4 text-gray-400">— Michael Brown</p>
+    </div>
+  </div>
+</section>
 
       <section id="pricing" className="px-8 py-20 bg-gray-950">
         <h2 className="text-4xl font-bold text-center mb-12">
